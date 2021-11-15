@@ -1,0 +1,20 @@
+form{
+    padding-top: 15vh;
+}
+.login-button{
+    color: #000000;
+    font-size: 15px;
+    background-color: rgb(136, 211, 93);
+    border-radius: 10px;
+    
+}
+i{
+    color: rgb(61, 141, 15);
+}
+.form-control{
+    background-color:#fff;
+    border-bottom: 1px solid rgb(0, 2, 0);
+}
+.form-outline{
+    padding-top: 2vh;
+}
