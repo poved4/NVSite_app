@@ -1,0 +1,328 @@
+/* **********************COMPONENTE PARA NAVEGADOR **************************/
+.fondo-login-register-circle1 {
+  /* Ellipse 2 */
+  position: absolute;
+  width: 200px;
+  height: 150px;
+  left: -55px;
+  top: -30px;
+  border-radius: 100px;
+  background: #fdff86bf;
+}
+
+.fondo-login-register-circle2 {
+  /* Ellipse 3 */
+  position: absolute;
+  width: 130px;
+  height: 115px;
+  border-radius: 90px;
+  left: -10px;
+  top: 110px;
+  background: rgba(164, 243, 248, 0.98);
+}
+
+.fondo-login-register-circle3 {
+  /* Ellipse 3 */
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 1249px;
+  top: 570px;
+  border-radius:  100% 0 0 0;
+  background: #abe6ff;
+}
+
+.fondo-login-register-circle4 {
+  /* Ellipse 4 */
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 100px 100px 0 0;
+  left: -70px;
+  top: 49px;
+  width: 100px;
+  height: 50px;
+  background: #9ae4a1;
+}
+
+/* logo */
+.logo {
+  width: 600;
+  position: absolute;
+  left: 10%;
+  top: 7%;
+}
+
+.icon-user {
+  position: absolute;
+  width: 240px;
+  height: 20px;
+  left: 65%;
+  top: 208px;
+  line-height: 21px;
+  font-size: 40px;
+  color: #6BAE7E;
+}
+
+.icon-password {
+  position: absolute;
+  width: 240px;
+  height: 20px;
+  left: 65%;
+  top: 277px;
+  line-height: 21px;
+  font-size: 40px;
+  color: #6BAE7E;
+}
+
+.input-email {
+  /* Correo Electronico */
+  position: relative;
+  width: 240px;
+  height: 20px;
+  left: 70%;
+  top: 212px;
+  font-family: Belleza;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 21px;
+  padding-left: 5px;
+  font-size: 21px;
+  color: #747272;
+  border: none;
+  border-bottom:1px solid #000000;
+}
+.input-email:focus {
+  outline: 0 none;
+}
+
+.input-password {
+  /* contraseña */
+  position: relative;
+  width: 242px;
+  height: 20px;
+  left: 60%;
+  top: 124px;
+  font-family: Belleza;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 21px;
+  margin: 10%;
+  padding-left: 5px;
+  font-size: 21px;
+  color: #747272;
+  border: none;
+  border-bottom:1px solid #000000;
+}
+
+.input-password:focus {
+  outline: 0 none;
+}
+
+.register-account {
+  /* ¿No tienes cuenta? Registrate aqui */
+  position: absolute;
+  width: 269px;
+  height: 16px;
+  left: 67.05%;
+  top: 365px;
+  font-family: Belleza;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19.05px;
+  line-height: 21px;
+  color: #908BBE;
+  text-decoration:underline;
+}
+
+.button-login {
+  /* Rectangle 1 */
+  padding-left: 65px;
+  padding-right: 232px;
+  padding-top: 55px;
+  position: absolute;
+  width: 240px;
+  height: 49px;
+  left: 66.05%;
+  top: 410px;
+  background: #88dda0;
+  border-radius: 30px;
+  border: none;
+}
+
+.button-login h1 {
+  /* iniciar sesion */
+  position: absolute;
+  right: 60px;
+  top: 8px;
+  font-family: Belleza;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: #6B6A6A;
+}
+
+/* ****************SECCION PARA CELULAR****************+ */
+@media (max-width:640px) {
+  .fondo-login-register-circle1 {
+    /* Ellipse 2 */
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left: -55px;
+    top: -30px;
+    border-radius: 100px;
+    background: #fdff86bf;
+  }
+
+  .fondo-login-register-circle2 {
+    /* Ellipse 3 */
+    position: absolute;
+    width: 130px;
+    height: 115px;
+    border-radius: 90px;
+    left: -10px;
+    top: 110px;
+    background: rgba(164, 243, 248, 0.98);
+  }
+
+  .fondo-login-register-circle3 {
+    /* Ellipse 3 */
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 276px;
+    top: 568px;
+    border-radius:  100% 0 0 0;
+    background: #abe6ff;
+  }
+
+  .fondo-login-register-circle4 {
+    /* Ellipse 4 */
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px 100px 0 0;
+    left: -70px;
+    top: 49px;
+    width: 100px;
+    height: 50px;
+    background: #9ae4a1;
+  }
+
+/* logo principal */
+.logo {
+  position: absolute;
+  max-width: 90%;
+  left: 8%;
+  top: 10%;
+}
+  .icon-user {
+    position: absolute;
+    width: 240px;
+    height: 20px;
+    left: 55px;
+    top: 350px;
+    font-size: 18px;
+    line-height: 21px;
+    font-size: 30px;
+    color: #6BAE7E;
+  }
+
+  .icon-password {
+    position: absolute;
+    width: 240px;
+    height: 20px;
+    left: 55px;
+    top: 410px;
+    font-size: 18px;
+    line-height: 21px;
+    font-size: 30px;
+    color: #6BAE7E;
+  }
+
+  .input-email {
+    /* Correo Electronico */
+    position: relative;
+    width: 220px;
+    height: 20px;
+    left: 95px;
+    top: 355px;
+    font-family: Belleza;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 21px;
+    padding-left: 5px;
+    font-size: 20px;
+    color: #747272;
+    border: none;
+    border-bottom:1px solid #000000;
+  }
+  .input-email:focus {
+    outline: 0 none;
+  }
+
+  .input-password {
+    /* contraseña */
+    position: relative;
+    width: 220px;
+    height: 20px;
+    left: 55px;
+    top: 355px;
+    font-family: Belleza;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 21px;
+    margin: 10%;
+    padding-left: 5px;
+    font-size: 20px;
+    color: #747272;
+    border: none;
+    border-bottom:1px solid #000000;
+  }
+
+  .input-password:focus {
+    outline: 0 none;
+  }
+
+  .register-account {
+    /* ¿No tienes cuenta? Registrate aqui */
+    position: absolute;
+    width: 269px;
+    height: 16px;
+    left: 62px;
+    top: 475px;
+    font-family: Belleza;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #908BBE;
+  }
+
+  .button-login {
+    /* Rectangle 1 */
+    padding-left: 60px;
+    padding-right: 190px;
+    padding-top: 55px;
+    position: absolute;
+    width: 240px;
+    height: 49px;
+    left: 62px;
+    top: 510px;
+    background: #88dda0;
+    border-radius: 50px;
+    border: none;
+  }
+  .button-login h1 {
+    /* iniciar sesion */
+    position: absolute;
+    right: 43px;
+    top: 8px;
+    font-family: Belleza;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: #6B6A6A;
+  }
+}
