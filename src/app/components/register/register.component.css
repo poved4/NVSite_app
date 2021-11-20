@@ -1,0 +1,10 @@
+.form-control{
+    background-color:#fff;
+    border-bottom: 1px solid rgb(18, 150, 18);
+}
+.login-button{
+    color: #000000;
+    font-size: 15px;
+    background-color: #70c501;
+    border-radius: 10px;
+}
