@@ -39,5 +39,5 @@ class dbInitSetup {
     }
 }
 
-const dbInit = new dbInitSetup(require('../models/model.rol'), require('../models/model.user'))
+const dbInit = new dbInitSetup(require('../components/models/model.rol'), require('../components/models/model.user'))
 dbInit.init()

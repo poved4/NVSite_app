@@ -1,7 +1,6 @@
 const { Schema, model } = require('mongoose')
 const bcrypt = require('bcrypt')
 
-
 const userSchema = new Schema({
     username: {
         type: String,
@@ -30,8 +29,8 @@ userSchema.statics.encryptPassword = async (password) => {
     return await bcrypt.hash(password, salt)
 }
 
-userSchema.statics.comparePassword = async (password, receivedPassword) => {
-    return await bcrypt.compare(password, receivedPassword)
+userSchema.statics.comparePassword = async (password, hash) => {
+    return await bcrypt.compare(password, hash)
 }
 
 module.exports = model('users', userSchema)

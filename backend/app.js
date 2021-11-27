@@ -1,6 +1,7 @@
-require('dotenv').config()
-const port = process.env.PORT || 3000
+const server = require('./config/config.server')
+const { EXPRESS_PORT } = process.env
 
-require(`${__dirname}/config/config.server`).listen(port, 
-  console.log(`http://127.0.0.1:${port}\n`) 
+//Server
+server.listen(EXPRESS_PORT, 
+  console.log(`http://127.0.0.1:${EXPRESS_PORT}`) 
 )

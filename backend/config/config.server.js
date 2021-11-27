@@ -1,8 +1,8 @@
-//Data Bases
-const moongose = require('../services/service.db.mongo');
-const initiSetupDB = require('../components/libs/initialSetup')
+//Essentials
+require('dotenv').config() 
+require('../services/mongodb/service.mongodb')
 
-//Server
+//Packages
 const express = require('express')
 const helmet = require('helmet')
 const morgan = require('morgan')
